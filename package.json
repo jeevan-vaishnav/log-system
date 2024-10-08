@@ -1,9 +1,11 @@
 {
   "name": "log-system",
   "version": "1.0.0",
-  "description": "",
+  "description": "An advanced log system with writable streams and log rotation",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index",
+    "dev": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,12 +13,19 @@
     "url": "git+ssh://git@github.com/jeevan-vaishnav/log-system.git"
   },
   "keywords": [
-    "log-system"
+    "nodejs",
+    "writable streams",
+    "log rotation",
+    "colorful logs"
   ],
   "author": "jeevan vaishnav",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jeevan-vaishnav/log-system/issues"
   },
-  "homepage": "https://github.com/jeevan-vaishnav/log-system#readme"
+  "homepage": "https://github.com/jeevan-vaishnav/log-system#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "nodemon": "^3.1.7"
+  }
 }
